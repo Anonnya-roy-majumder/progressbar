@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background: url(../images/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    width: 700px;
+    margin: 100px auto;
+
+    -webkit-box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, -4px 13px 10px 14px rgba(208, 127, 234, 0);
+    box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, -4px 13px 10px 14px rgba(208, 127, 234, 0);
+    padding: 50px;
+
+}
+
+.text {
+    margin-left: 235px;
+    margin-bottom: 20px;
+
+}
+
+.text h2 {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border: 3px solid#051062;
+    font-size: 30px;
+    font-family: monospace;
+    color: #db9c9c;
+    -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, -4px 13px 10px 14px rgba(208, 127, 234, 0);
+    box-shadow: 0px 0px 0px 5px #0dbaba, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #2292ad, -4px 13px 10px 14px rgba(208, 127, 234, 0);
+}
+.text h2:hover{
+    color:#fff;
+    background:#bc104b;
+    transition:all linear .4s;
+    -webkit-transition:all linear .4s;
+    -moz-transition:all linear .4s;
+    -o-transition:all linear .4s;
+}
+
+.main .title {
+    font-size: 20px;
+    font-family: 'Chango', cursive;
+    color: #905353;
+}
+
+.main .title2 {
+    font-size: 20px;
+    font-family: 'Chango', cursive;
+    color: #db9c9c;
+}
+
+.main .title3 {
+    font-size: 20px;
+    font-family: 'Chango', cursive;
+    color: #769a62;
+}
+
+.main .title4 {
+    font-size: 20px;
+    font-family: 'Chango', cursive;
+    color: #1b6f8e;
+}
+
+.main .title5 {
+    font-size: 20px;
+    font-family: 'Chango', cursive;
+    color: #e39b27;
+}
+
+.main .title6 {
+    font-size: 20px;
+    font-family: 'Chango', cursive;
+    color: #636709;
+}
+
+.main .progressbar {
+    height: 30px !important;
+    border-radius: 0 20px !important;
+}
+
+.main .proggress {
+    height: 30px !important;
+    border-radius: 0 20px !important;
+}
+
+.main .percentCount {
+
+    margin-top: -60px;
+
+    font-weight: 700;
+    font-size: 20px;
+    color: #27749d;
+}
+}
